@@ -17,4 +17,4 @@ print_hi('Tom')
 hi
 
 대한민국 서울특별시 용산구 이태원동
-![alt_text](https://github.com/jilijiliji/jilijiliji.github.io/blob/master/스크린샷%202020-07-28%20오후%208.54.33.png)
+![alt_text](https://github.com/jilijiliji/jilijiliji.github.io/blob/master/test.png)

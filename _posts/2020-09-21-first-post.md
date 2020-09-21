@@ -1,6 +1,6 @@
 ---
 title: "jp nb"
-date: 2020-09-20 12:48:28 -0400
+date: 2020-09-21
 categories: Instagram DATA
 ---
 ```python

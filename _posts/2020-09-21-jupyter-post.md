@@ -1,11 +1,9 @@
 ---
-layout: post
-title:  "jupyter notebook test"
-subtitle: "jupyter notebook test"
-categories: development
-tags: web
-comments: true
---- 
+title: "The spatial and temporal distribution of Instagram User generated contents in Iteawon commercial district, Seoul, Korea"
+date: 2020-09-20 12:48:28 -0400
+categories: Instagram DATA
+---
+
 - Date : 2020.9.13
 - Author : Jiwon Jang
 

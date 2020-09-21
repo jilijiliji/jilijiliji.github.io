@@ -1,10 +1,7 @@
 ---
-layout: post
-title:  "jupyter notebook(ipynb)로 jekyll 글쓰기"
-subtitle: "jupyter notebook(ipynb)로 jekyll 글쓰기"
-categories: development
-tags: web
-comments: true
+title: "The spatial and temporal distribution of Instagram User generated contents in Iteawon commercial district, Seoul, Korea"
+date: 2020-09-20 12:48:28 -0400
+categories: Instagram DATA
 ---
 
 <!DOCTYPE html>

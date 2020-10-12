@@ -15,6 +15,6 @@ Here is an example how to do it in MarkDown for user HTenkanen:
 Add here links to the maps that you have created:
 
  - [Link to test map](https://automating-gis-processes.github.io/exercise-5-HTenkanen/test_map.html)
- - [Link to test map](https://github.com/jilijiliji/jilijiliji.github.io/blob/master/_posts/ITW_baseMap_20201011.html
+ - [Link to test map](https://github.com/jilijiliji/jilijiliji.github.io/blob/master/docs/test_map.html)
  - Replace this with your link
 

@@ -94,7 +94,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "[Jiwon Jang](https://github.com/jilijiliji/jilijiliji.github.io/tree/master/_posts)"
+  name             : [Jiwon Jang](https://github.com/jilijiliji/jilijiliji.github.io/tree/master/_posts)
   avatar           : "/assets/images/profiletest.jpg" 
   bio              : "Master of Engineering, Bachelor of Sociology, Kyung Hee University, Seoul, Republic of Korea"
   location         : "Seoul, Republic of Korea"

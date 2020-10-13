@@ -1,0 +1,17 @@
+---
+title: Jiwon Jang
+date: 2020-10-13 23:00:00 -0400
+classes : wide
+layout: single
+---
+
+EDUCATION 
+Master of Engineering, Major in Social network Science                                                                   Aug 2018 - Aug 2020
+Kyung Hee University, Seoul, Korea 
+Dissertation Thesis: ‘Predicting pedestrian behavior patterns using user generated contents : Deep reinforcement learning approach (Advisor: Prof. Jin-mu Choi)
+
+Bachelor of Sociology, Major in Sociology                                                                                            Mar 2012 - Aug 2018
+Kyung Hee University, Seoul, Korea
+
+RESEARCH INTEREST
+GeoAI, Deep learning, Reinforcement learning, spatiotemporal data analysis, human behavior, social media,.

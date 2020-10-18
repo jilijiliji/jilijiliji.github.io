@@ -20,6 +20,8 @@ categories: Itaewon
 
 <center><img src="/assets/basemapimage.jpg" width="600" height="500"></center>
 <center>Itaewon Instagram contents map 1 example</center>
+* Colors range from blue to red 
+* Blue color represents the most lowest frequency, on the other hand red color represents the most highest frequency
 <br/>
 
 [[Map 1]](https://jilijiliji.github.io/ITW_baseMap_20201011.html)은 인스타그램 자료, 가게 위치, 연구지역, 시뮬레이션 범위 자료를 지도에 표출하였다.
@@ -34,7 +36,9 @@ categories: Itaewon
 # [Map 2](https://jilijiliji.github.io/ITW_timeInstagramCummulative.html) : Itaewon Instagram contents map(Dynamic Map)
 
 <center><img src="/assets/map2Example.gif" width="600" height="500"></center>
-<center>Itaewon Instagram contents map 2 example</center>
+<center>Map 2 example</center>
+* Colors range from blue to red 
+* Blue color represents the most lowest frequency, on the other hand red color represents the most highest frequency
 <br/>
 
 [[Map 2]](https://jilijiliji.github.io/ITW_timeInstagramCummulative.html)는 2013년 1월 1일 부터 2019년 8월 19일 사이(대략 2167일)에 발생한 인스타그램 콘텐츠를 시간순으로 표출하였다. 시간 순으로 이태원 상권 지역의 활성화된 지역을 파악하기 위해 콘텐츠의 지역별 누적합을 표출하였다. 콘텐츠의 분포를 통해서 특정 시점의 활성된 지역을 파악할 수 있다.
@@ -44,9 +48,8 @@ categories: Itaewon
 <center><img src="/assets/images//reinforcementlearning.jpg" width="500" height="500"></center>
 <center>Reinforcement learning process</center>
 <br/>
-강화학습 에이전트가 학습을 진행하는 과정을 위의 이미지를 통해 확인할 수 있다. 에이전트는 environment의 state에 따라서 action을 선택하고, action에 기반하여 환경에서 reward를 받는다. 
-
-[[Map 3]](https://jilijiliji.github.io/SimulationResult_20201012.html)은 심층강화학습을 이용하여 에이전트를 학습시키는 과정을 표출하였다.
+강화학습 에이전트가 학습을 진행하는 과정은 위의 이미지와 같다. 에이전트는 environment의 state에 따라서 action을 선택하고, action에 기반하여 환경에서 reward를 받는다. 
+- 학습과정 서술
 
 <center><img src="/assets/images/grid.jpg" width="300" height="300"/> <img src="/assets/gridSimulation.gif" width="300" height="300"></center>
 <center>Left : Map 1 - Simulation Environment(Grid)</center>
@@ -56,12 +59,13 @@ categories: Itaewon
 * Red grid : Red grids represent the place where shops are located
 <br/>
 
-심층강화학습 시뮬레이션에서 에이전트는 인스타그램 콘텐츠가 많은 지역을 방문한 경우 높은 보상을 받으며, 그렇지 않은 경우 보상을 받지 못하게 된다. 학습을 통해 에이전트가 이태원 상권에서 가장 유명한 지역을 방문하는 최적 정책을 도출한다. 
-
-[Map 1](https://jilijiliji.github.io/ITW_baseMap_20201011.html)의 ‘Simulation Environment(Grid) Layer’에서 확인할 수 있듯, 실제 공간범위에 대응할 수 있는 그리드 환경을 구성하였고, 각각의 그리드의 공간범위에 해당하는 지역에서 발생하는 인스타그램 콘텐츠를 각 그리드에 집계하였다.
+[[Map 3]](https://jilijiliji.github.io/SimulationResult_20201012.html)은 심층강화학습을 이용하여 에이전트를 학습시키는 과정을 표출하였다. 심층강화학습 시뮬레이션에서 에이전트는 인스타그램 콘텐츠가 많은 지역을 방문한 경우 높은 보상을 받으며, 그렇지 않은 경우 보상을 받지 못하게 된다. 학습을 통해 에이전트가 이태원 상권에서 가장 유명한 지역을 방문하는 최적 정책을 도출한다. [Map 1](https://jilijiliji.github.io/ITW_baseMap_20201011.html)의 ‘Simulation Environment(Grid) Layer’에서 확인할 수 있듯, 실제 공간범위에 대응할 수 있는 그리드 환경을 구성하였고, 각각의 그리드의 공간범위에 해당하는 지역에서 발생하는 인스타그램 콘텐츠를 각 그리드에 집계하였다.
 
 <center><img src="/assets/simulationResult.gif" width="600" height="500"></center>
-<center>Deep Reinforcement Learning Simulation in Real World</center>
+<center>Map 3 - Deep Reinforcement Learning Simulation in Real World</center>
+* Colors range from blue to red 
+* Blue color represents the most lowest frequency, on the other hand red color represents the most highest frequency
+* The most visited areas become red and relatively the least visited areas become blue
 <br/>
 
 2018년 8월 ~ 2019년 8월 사이의 자료를 활용하여 에이전트를 학습한 결과는 [Map 3](https://jilijiliji.github.io/SimulationResult_20201012.html)과 같다. 시뮬레이션 에피소드 진행에 따른 에이전트의 지역 방문 빈도를 확인할 수 있다. 에이전트가 많이 방문한 지역은 Heatmap에서 붉은 색상을 보이고 그렇지 않은 경우 파란 색상을 보인다. 에이전트는 학습 초기에는 모든 지역을 무작위로 방문하지만 학습이 진행됨에 따라 온라인에서 유명한 지역을 방문하는 정책을 학습할 수 있게 되며,  결과적으로 가장 높은 보상을 얻을 수 있는 지역으로 수렴하는 것을 확인할 수 있다.

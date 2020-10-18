@@ -66,7 +66,11 @@ categories: Itaewon
 
 2018년 8월 ~ 2019년 8월 사이의 자료를 활용하여 에이전트를 학습한 결과는 [Map 3](https://jilijiliji.github.io/SimulationResult_20201012.html)과 같다. 시뮬레이션 에피소드 진행에 따른 에이전트의 지역 방문 빈도를 확인할 수 있다. 에이전트가 많이 방문한 지역은 Heatmap에서 붉은 색상을 보이고 그렇지 않은 경우 파란 색상을 보인다. 에이전트는 학습 초기에는 모든 지역을 무작위로 방문하지만 학습이 진행됨에 따라 온라인에서 유명한 지역을 방문하는 정책을 학습할 수 있게 되며,  결과적으로 가장 높은 보상을 얻을 수 있는 지역으로 수렴하는 것을 확인할 수 있다.
 
-Itaewon Instagram Contents Map은 상권 방문객의 의사결정 뿐만 아니라 지역 상권에서 사업을 운영하는 자영업자의 의사결정에도 도움을 줄 수 있을 것으로 기대된다. 상권을 방문하는 방문객은 지도를 이용하여 상권 내부의 유명한 가게가 군집되어 있는 지역을 방문할 수 있는 최적 계획을 기획할 수 있다. 뿐만 아니라 가게를 운영하는 자영업자는 지도를 이용하여 특정 시점의 상권의 활성화 정도를 파악할 수 있기 때문에, 가게 계약 연장 등 의사결정에 도움을 줄 수 있을 것을 기대된다. 
+Itaewon Instagram Contents Map은 상권 방문객의 의사결정 뿐만 아니라 지역 상권에서 사업을 운영하는 자영업자의 의사결정에도 도움을 줄 수 있을 것으로 기대된다. 상권을 방문하는 방문객은 지도를 이용하여 상권 내부의 유명한 가게가 군집되어 있는 지역을 방문할 수 있는 최적 계획을 기획할 수 있다. 
+
+뿐만 아니라 가게를 운영하는 자영업자는 지도를 이용하여 특정 시점의 상권의 활성화 정도를 파악할 수 있기 때문에, 가게 계약 연장 등 의사결정에 도움을 줄 수 있을 것을 기대된다. 
+
+
 
 * This post is based on the working paper below
 * (in progress) Jang, J., & Choi, J. (2020). Predicting pedestrian behaviors in Itaewon commercial district using user generated contents : deep reinforcement learning approach.

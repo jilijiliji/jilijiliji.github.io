@@ -40,8 +40,6 @@ In addition to describing the popularity of the business district, trained artif
 The Instagrm data which are heterogeneously distributed in the area was converted into the learning environment, and the agent which interacted with the environment were trained using deep reinforcement learning.
 As a result of the study, we were able to train the agent who learned the optimal policy of visiting the most famous area.[[Map 3]](https://jilijiliji.github.io/SimulationResult_20201012.html)
 
-#####
-
 # [Map 1](https://jilijiliji.github.io/ITW_baseMap_20201011.html) : Itaewon Instagram contents map(Static Map)
 
 <center><img src="/assets/basemapimage.jpg" width="600" height="500"></center>
@@ -57,10 +55,10 @@ As a result of the study, we were able to train the agent who learned the optima
 * Research Area layer : Research Area layer는 이태원 상권이 형성되어 있는 행정동(용산동2가, 이태원동, 한남동)을 확인할 수 있다.
 
 [[Map 1]](https://jilijiliji.github.io/ITW_baseMap_20201011.html) shows Instagram data, store location, research area, and simulation scope data on the map.
-* HeatMap (Instagram Buzz) layer: Instagram data is displayed in HeatMap (Instagram Buzz) layer. It was expressed in HeatMap to see the relative distribution of Instagram content within the business district.
-* BUILDING (341) layer: The location of stores in Itaewon can be found in BUILDING (341) layer. A total of 341 shops are displayed in research areas. Markers are marked on the coordinates where the store is located, and you can check the number of "accumulated" Instagram content during the data collection period by clicking on them.
-* Simulation Environment (Grid) Layer: Simulation Environment (Grid) Layer indicates the environment in which deep-strength practice is applied. At Itaewon Station, the range of 1000m2 was limited to the simulation environment, and the environment of 1000m2 consisted of 10,000 10m2 grids.
-* Research Area layer: Research Area layer can be found in the administrative dong (Yongsan-dong 2-ga, Itaewon-dong, Hannam-dong) where Itaewon business district is formed.
+* HeatMap (Instagram Buzz) layer: Instagram data is displayed in HeatMap (Instagram Buzz) layer. It was expressed in HeatMap to see the relative distribution of Instagram content within the business district. Blue color represents the most lowest frequency, on the other hand red color represents the most highest frequency
+* BUILDING (341) layer: The location of stores in Itaewon area can be found in BUILDING (341) layer. A total of 341 shops are displayed in research areas. Markers are marked on the coordinates where the store is located, and you can check the total number of "accumulated" Instagram content by clicking on them.
+* Simulation Environment (Grid) Layer: Simulation Environment (Grid) Layer indicates the environment in which deep reinforcement learning is applied. Around Itaewon Station, the range of 1000㎡ was used as the simulation environment, and the environment of 1,000㎡ consisted of 10,000(10㎡) grids.
+* Research Area layer: Research Area layer indicates the research area which consist of three administrative areas(Yongsan-dong 2-ga, Itaewon-dong, Hannam-dong) where Itaewon business district is formed.
 
 # [Map 2](https://jilijiliji.github.io/ITW_timeInstagramCummulative.html) : Itaewon Instagram contents map(Dynamic Map)
 
@@ -84,6 +82,9 @@ The distribution of content allows us to identify the active areas at a specific
 강화학습 에이전트가 학습을 진행하는 과정은 위의 이미지와 같다. 에이전트는 environment의 state에 따라서 action을 선택하고, action에 기반하여 환경에서 reward를 받는다. 
 - 학습과정 서술
 
+The process in which the reinforcement learning agent proceeds learning is as shown in the image above. 
+The agent selects an action according to the state of the environment and receives a reward from the environment based on the action.
+
 <center><img src="/assets/images/grid.jpg" width="300" height="300"/> <img src="/assets/gridSimulation.gif" width="300" height="300"></center>
 <center>Left : Map 1 - Simulation Environment(Grid)</center>
 <center>Right : Deep Reinforcement Learning Simulation in Grid World</center>
@@ -92,10 +93,11 @@ The distribution of content allows us to identify the active areas at a specific
 * Red grid : Red grids represent the place where shops are located
 <br/>
 
-[[Map 3]](https://jilijiliji.github.io/SimulationResult_20201012.html)은 심층강화학습을 이용하여 에이전트를 학습시키는 과정을 표출하였다. 심층강화학습 시뮬레이션에서 에이전트는 인스타그램 콘텐츠가 많은 지역을 방문한 경우 높은 보상을 받으며, 그렇지 않은 경우 보상을 받지 못하게 된다. 학습을 통해 에이전트가 이태원 상권에서 가장 유명한 지역을 방문하는 최적 정책을 도출한다. [Map 1](https://jilijiliji.github.io/ITW_baseMap_20201011.html)의 ‘Simulation Environment(Grid) Layer’에서 확인할 수 있듯, 실제 공간범위에 대응할 수 있는 그리드 환경을 구성하였고, 각각의 그리드의 공간범위에 해당하는 지역에서 발생하는 인스타그램 콘텐츠를 각 그리드에 집계하였다.
+[[Map 3]](https://jilijiliji.github.io/SimulationResult_20201012.html)은 심층강화학습을 이용하여 에이전트를 학습시키는 과정을 표출하였다. 
+심층강화학습 시뮬레이션에서 에이전트는 인스타그램 콘텐츠가 많은 지역을 방문한 경우 높은 보상을 받으며, 그렇지 않은 경우 보상을 받지 못하게 된다. 학습을 통해 에이전트가 이태원 상권에서 가장 유명한 지역을 방문하는 최적 정책을 도출한다. [Map 1](https://jilijiliji.github.io/ITW_baseMap_20201011.html)의 ‘Simulation Environment(Grid) Layer’에서 확인할 수 있듯, 실제 공간범위에 대응할 수 있는 그리드 환경을 구성하였고, 각각의 그리드의 공간범위에 해당하는 지역에서 발생하는 인스타그램 콘텐츠를 각 그리드에 집계하였다.
 
-[[Map 3]](https://jilijiliji.github.io/SimulationResult_20201012.html) demonstrates the process of learning agents using deep-seated learning.
-In an in-depth intensive training simulation, agents receive high rewards for visiting areas with a lot of Instagram content, otherwise they will not be rewarded. Through learning, the agent derives the optimal policy of visiting the most famous area in Itaewon.
+[[Map 3]](https://jilijiliji.github.io/SimulationResult_20201012.html) demonstrates the process of learning using deep reinforcement learning.
+In deep reinforcement learning simulation, agents receive high rewards for visiting areas with a lot of Instagram content, otherwise they will not be rewarded. Through learning, the agent derives the optimal policy of visiting the most famous area in Itaewon.
 As can be seen in [Map 1](https://jilijiliji.github.io/ITW_baseMap_20201011.html)'s 'Simulation Environment (Grid) Layer', a grid environment was formed to respond to the actual space range, and Instagram contents that occur in areas corresponding to the space range of each grid were aggregated into each grid.
 
 <center><img src="/assets/simulationResult.gif" width="600" height="500"></center>
@@ -107,10 +109,10 @@ As can be seen in [Map 1](https://jilijiliji.github.io/ITW_baseMap_20201011.html
 
 2018년 8월 ~ 2019년 8월 사이의 자료를 활용하여 에이전트를 학습한 결과는 [Map 3](https://jilijiliji.github.io/SimulationResult_20201012.html)과 같다. 시뮬레이션 에피소드 진행에 따른 에이전트의 지역 방문 빈도를 확인할 수 있다. 에이전트가 많이 방문한 지역은 Heatmap에서 붉은 색상을 보이고 그렇지 않은 경우 파란 색상을 보인다. 에이전트는 학습 초기에는 모든 지역을 무작위로 방문하지만 학습이 진행됨에 따라 온라인에서 유명한 지역을 방문하는 정책을 학습할 수 있게 되며,  결과적으로 가장 높은 보상을 얻을 수 있는 지역으로 수렴하는 것을 확인할 수 있다.
 
-The results of learning agents using data between August 2018 and August 2019 are as shown in [Map 3](https://jilijiliji.github.io/SimulationResult_20201012.html).
+The results of learning using data between August 2018 and August 2019 are as shown in [Map 3](https://jilijiliji.github.io/SimulationResult_20201012.html).
 It is possible to check the frequency of local visits of agents according to simulation episode progress.
-Areas visited by agents show red in Heatmap, otherwise blue.
-Agents visit all regions at random in the early stages of learning, but as learning progresses, they can learn the policy of visiting famous areas online, and consequently see converging into the areas where the highest rewards can be obtained.
+Areas which were highly visited by agents were shown red in Heatmap, otherwise blue.
+Agents visit all regions at random in the early stages of learning, but as learning progresses, it can learn the policy of visiting famous areas online, and consequently see converging into the areas where the highest rewards can be obtained.
 
 Itaewon Instagram Contents Map의 결과를 기반으로 상권을 방문하는 예비 방문객은 상권 내부의 유명한 가게가 군집되어 있는 지역을 방문할 수 있는 최적 계획을 기획할 수 있다. 또한 지역 상권에서 사업을 운영하는 소상공인에게도 유용한 정보를 줄 수 있을 것을 기대된다. 특정 시점의 상권이 활성화된 정도를 파악할 수 있으며, 학습된 에이전트를 활용하여 향후 인구유동이 많은 지역을 예측할 수도 있다. 이와 같은 정보를 활용하여 가게 계약 연장 및 신규 점포 입지 선정 등의 의사결정에 도움을 줄 수 있을 것으로 기대된다. 더 나아가 향후 연구에서 임대료 상등 등으로 인한 가게의 소멸과정을 학습모델에 추가하여 젠트리피케이션을 예측하고 대응할 수 있는 GeoAI로 발전시킬 수 있는 가능성을 기대한다.
 
@@ -119,11 +121,11 @@ Itaewon Instagram Contents Map의 결과를 기반으로 상권을 방문하는 
 Based on the results of Itaewon Instagram Contents Map, prospective visitors to the commercial district can plan an optimal plan to visit an area where famous shops inside the commercial district are clustered.
 It is also expected to provide useful information to small business owners who operate businesses in local commercial districts.
 We can see how active commercial districts are at a certain point in time, and we can also use learned agents to predict areas with high population fluctuations in the future.
-It is expected that such information will be used to help make decisions such as extending store contracts and selecting new store locations.
+It is expected that such information will be used to help make spatial decisions such as extending store contracts and selecting new store locations.
 Furthermore, we look forward to the possibility of developing the extinction process of stores due to higher rents in future research into GeoAI, which can predict and respond to gentrification by adding it to the learning model.
 
 
 * This post is based on the working paper below
-*(in progress) Jang, J., & Choi, J. (2020). Predicting pedestrian behaviors in Itaewon commercial district using user generated contents : deep reinforcement learning approach.
-*Jang, J. (1st author), Kim, M., Choi, J., (2020), A Study on the Relationship between Foot Traffic and Instagram Contents Using Spatial Panel Model, Korea Society for Geospatial Information Science (in Korean with English abstract)
+*(in progress) Jang, J., & Choi, J. (2020). Predicting pedestrian behaviors in Itaewon commercial district using user generated contents : deep reinforcement learning approach.*
+*Jang, J. (1st author), Kim, M., Choi, J., (2020), A Study on the Relationship between Foot Traffic and Instagram Contents Using Spatial Panel Model, Korea Society for Geospatial Information Science (in Korean with English abstract)*
 ([Jang, et.al, 2020](https://github.com/jilijiliji/jilijiliji.github.io/blob/master/spatialpanel_instagtram_0928.pdf))

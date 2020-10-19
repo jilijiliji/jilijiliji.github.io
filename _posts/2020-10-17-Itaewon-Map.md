@@ -124,7 +124,6 @@ We can see how active commercial districts are at a certain point in time, and w
 It is expected that such information will be used to help make spatial decisions such as extending store contracts and selecting new store locations.
 Furthermore, we look forward to the possibility of developing the extinction process of stores due to higher rents in future research into GeoAI, which can predict and respond to gentrification by adding it to the learning model.
 
-
 * This post is based on the papers below
 <br/>
 *(in progress) Jang, J., & Choi, J. (2020). Predicting pedestrian behaviors in Itaewon commercial district using user generated contents : deep reinforcement learning approach.*

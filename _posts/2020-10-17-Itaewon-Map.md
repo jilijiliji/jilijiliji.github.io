@@ -89,8 +89,8 @@ The agent selects an action according to the state of the environment and receiv
 <center>Left : Map 1 - Simulation Environment(Grid)</center>
 <center>Right : Deep Reinforcement Learning Simulation in Grid World</center>
 <center>(Right image corresponds to the same coordinates on the left image)</center>
-* circle : Agent who is interacting with the environment
-* Red grid : Red grids represent the place where shops are located
+* *circle : Agent who is interacting with the environment*
+* *Red grid : Red grids represent the place where shops are located*
 <br/>
 
 [[Map 3]](https://jilijiliji.github.io/SimulationResult_20201012.html)은 심층강화학습을 이용하여 에이전트를 학습시키는 과정을 표출하였다. 
@@ -102,9 +102,9 @@ As can be seen in [Map 1](https://jilijiliji.github.io/ITW_baseMap_20201011.html
 
 <center><img src="/assets/simulationResult.gif" width="600" height="500"></center>
 <center>Map 3 - Deep Reinforcement Learning Simulation in Real World</center>
-* Colors range from blue to red 
-* Blue color represents the most lowest frequency, on the other hand red color represents the most highest frequency
-* The most visited areas become red and relatively the least visited areas become blue
+* *Colors range from blue to red* 
+* *Blue color represents the most lowest frequency, on the other hand red color represents the most highest frequency*
+* *The most visited areas become red and relatively the least visited areas become blue*
 <br/>
 
 2018년 8월 ~ 2019년 8월 사이의 자료를 활용하여 에이전트를 학습한 결과는 [Map 3](https://jilijiliji.github.io/SimulationResult_20201012.html)과 같다. 시뮬레이션 에피소드 진행에 따른 에이전트의 지역 방문 빈도를 확인할 수 있다. 에이전트가 많이 방문한 지역은 Heatmap에서 붉은 색상을 보이고 그렇지 않은 경우 파란 색상을 보인다. 에이전트는 학습 초기에는 모든 지역을 무작위로 방문하지만 학습이 진행됨에 따라 온라인에서 유명한 지역을 방문하는 정책을 학습할 수 있게 되며,  결과적으로 가장 높은 보상을 얻을 수 있는 지역으로 수렴하는 것을 확인할 수 있다.

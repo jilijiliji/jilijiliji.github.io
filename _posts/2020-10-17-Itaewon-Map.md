@@ -44,8 +44,8 @@ As a result of the study, we were able to train the agent who learned the optima
 
 <center><img src="/assets/basemapimage.jpg" width="600" height="500"></center>
 <center>Itaewon Instagram contents map 1 example</center>
-* Colors range from blue to red 
-* Blue color represents the most lowest frequency, on the other hand red color represents the most highest frequency
+* *Colors range from blue to red*
+* *Blue color represents the most lowest frequency, on the other hand red color represents the most highest frequency*
 <br/>
 
 [[Map 1]](https://jilijiliji.github.io/ITW_baseMap_20201011.html)은 인스타그램 자료, 가게 위치, 연구지역, 시뮬레이션 범위 자료를 지도에 표출하였다.
@@ -64,8 +64,8 @@ As a result of the study, we were able to train the agent who learned the optima
 
 <center><img src="/assets/map2Example.gif" width="600" height="500"></center>
 <center>Map 2 example</center>
-* Colors range from blue to red 
-* Blue color represents the most lowest frequency, on the other hand red color represents the most highest frequency
+* *Colors range from blue to red*
+* *Blue color represents the most lowest frequency, on the other hand red color represents the most highest frequency*
 <br/>
 
 [[Map 2]](https://jilijiliji.github.io/ITW_timeInstagramCummulative.html)는 2013년 1월 1일 부터 2019년 8월 19일 사이(대략 2167일)에 발생한 인스타그램 콘텐츠를 시간순으로 표출하였다. 시간 순으로 이태원 상권 지역의 활성화된 지역을 파악하기 위해 콘텐츠의 지역별 누적합을 표출하였다. 콘텐츠의 분포를 통해서 특정 시점의 활성된 지역을 파악할 수 있다.
@@ -125,7 +125,7 @@ It is expected that such information will be used to help make spatial decisions
 Furthermore, we look forward to the possibility of developing the extinction process of stores due to higher rents in future research into GeoAI, which can predict and respond to gentrification by adding it to the learning model.
 
 
-* This post is based on the working paper below
+* This post is based on the papers below
 <br/>
 *(in progress) Jang, J., & Choi, J. (2020). Predicting pedestrian behaviors in Itaewon commercial district using user generated contents : deep reinforcement learning approach.*
 <br/>

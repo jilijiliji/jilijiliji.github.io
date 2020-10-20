@@ -1,5 +1,5 @@
 ---
-title: Can AI agent find the best place to visit in the commercial district? - Deep Reinforcement learning approach
+title: Can AI agent find the best place to visit in the commercial district? - Deep Reinforcement learning approach (test)
 date: 2020-10-17 17:00:00 -0400
 classes: wide
 layout: single
